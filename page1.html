@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Newspaper </title>
+</head>
+<style>
+    .text {
+        font-family: sans-serif;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .flex-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .h1 {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 10px;
+        font-display: flex;
+    }
+
+    .circle {
+        background-color: black;
+        display: flex;
+        /* margin: 10px; */
+        /* font-size: 8px; */
+        height: 40px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row {
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .bigrectangle {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: rgb(204, 209, 216);
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+    }
+
+    .img {
+        clip-path: polygon(0 0, 55% 0, 39% 10%, 0 10%);
+        position: relative;
+        top: 10px;
+    }
+
+    .rectangle {
+        width: 100%;
+        display: flex;
+        height: 200px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        background: rgb(204, 209, 216);
+    }
+
+    .one {
+        height: 200px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        background: rgb(204, 209, 216);
+    }
+
+    .two {
+        height: 200px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        background: rgb(204, 209, 216);
+    }
+  
+</style>
+
+<body>
+    <div class="text">25 lorem ipsum 1234/56//78
+        <div class="flex-item"> Lorem ipsum dolor sit amet </div>
+        <hr>
+        <div>
+            <button>
+                <a href="page2.html">Page 2</a>
+            </button>
+        </div>
+        <h5> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+            magna
+            aliqua. </h5>
+        <hr>
+    </div>
+    <h1 class="h1"> NEWS DAILY WEEKLY </h1>
+    <div class="img"></div>
+    <div class="row">
+        <div style="flex-basis: 33%; margin: 10px;">
+            <p><b>Excepteur sint occaecat<br> cupidatat non proident,<br> sunt in culpa qui</p></b>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                elit, sed do eiusmod tempor incididunt ut labore et <br>
+                dolore magna aliqua</p>
+            <p><b>Commode Consequat Amset</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                elit, sed do eiusmod tempor incididunt ut labore et <br>
+                dolore magna aliqua</p>
+            <p>
+            <p> Ut enim ad minim veniam, quis nostrud exercitation<br>
+                ut Duis aute irure dolor in reprehenderit in <br>
+                voluptate velit esse cillum dolore eu fugiat nulla <br>
+                pariatur. Excepteur sint occaecat cupidatat non <br>
+                proident, sunt in culpa qui officia deserunt mollit <br>
+                anim id est laborum. Lorem ipsum dolor sit amet,<br>
+                consectetur adipisci elit, sed eiusmod tempor <br>
+                incidunt ut labore et dolore magna aliqua. </p>
+            <p>
+                Ut enim ad minim veniam, quis nostrud exercitation<br>
+                ut Duis aute irure dolor in reprehenderit in<br>
+                voluptate velit esse
+            </p>
+        </div>
+        <div style="flex-basis: 67%; margin: 10px;">
+            <div class="bigrectangle">
+                <div class="circle">Lorem</div>
+                <div style="margin: 15px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                    elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div style="flex-basis: 33%; margin: 10px;">
+            <div class="rectangle">
+                <div class="circle">Lorem</div>
+            </div>
+            <p><b>Commode Consequat Amset</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                elit, sed do eiusmod tempor incididunt ut labore et <br>
+                dolore magna aliqua</p>
+        </div>
+        <div style="flex-basis: 33%; margin: 10px;">
+            <div class="one">
+                <div class="circle">Lorem</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                elit, sed do eiusmod tempor incididunt ut labore et <br>
+                dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation<br>
+                ut Duis aute irure dolor in reprehenderit in <br>
+                voluptate velit esse cillum dolore eu fugiat nulla <br>
+                pariatur. Excepteur sint occaecat cupidatat non <br>
+                proident, sunt in culpa qui officia deserunt mollit <br>
+                anim id est laborum.</p>
+            <hr>
+          
+            <p style="color: red">
+                Ut enim ad minim veniam, quis nostrud exercitation<br>
+                ut Duis aute irure dolor in reprehenderit in<br>
+                voluptate velit esse
+            </p>
+        </div>
+       
+        <div style="flex-basis: 33%; margin: 10px;">
+            <div class="two">
+                <div class="circle">Lorem</div>
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar mattis libero, ac tempor
+                est molestie quis. Aenean fringilla felis non magna eleifend, ornare euismod est consequat.
+            </div>
+        </div>
+    </div>
+    <div class="text">
+        <hr>
+        25 lorem ipsum 1234/56//78
+        <div class="flex-item"> Lorem ipsum dolor sit amet </div>
+    </div>
+</body>
+
+</html>
